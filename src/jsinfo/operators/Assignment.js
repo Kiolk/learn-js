@@ -6,7 +6,7 @@ exports.operators = {
         examples: "// Assuming the following variables\n//  x = 5\n//  y = 10\n//  z = 25\n\nx = y     // x is 10\nx = y = z // x, y and z are all 25"
     },
     "+=": {
-        tytle: "Addition assignment",
+        title: "Addition assignment",
         description: "The addition assignment operator adds the value of the right operand to a variable and assigns the result to the variable. The types of the two operands determine the behavior of the addition assignment operator. Addition or concatenation is possible.",
         syntax: "Operator: x += y\nMeaning:  x  = x + y",
         examples: `// Assuming the following variables
@@ -32,6 +32,25 @@ foo += false // "foofalse"
 
 // String + String -> concatenation
 foo += 'bar' // "foobar"`
-    }
+    },
+    '-=': {
+        title: "Subtraction assignment - \'-=\'",
+        description: "The subtraction assignment operator subtracts the value of the right operand from a variable and assigns the result to the variable.",
+        syntax: "Operator: x -= y\nMeaning:  x  = x - y",
+        examples: `// Assuming the following variable
+//  bar = 5
 
+bar -= 2     // 3
+bar -= 'foo' // NaN`
+    },
+    '*=': {
+        title: "Multiplication assignment - \'*=\'",
+        description: "The multiplication assignment operator multiplies a variable by the value of the right operand and assigns the result to the variable.",
+        syntax: "Operator: x *= y\nMeaning:  x  = x * y",
+        examples: `// Assuming the following variable
+//  bar = 5
+
+bar *= 2     // 10
+bar *= 'foo' // NaN`
+    }
 }

@@ -1,3 +1,6 @@
 exports.Constants = {
-    outputWidth : 100
+    outputWidth : 60,
+    infoMessages : {
+        sorrySmile : '¯\\_(ツ)_/¯'
+    }
 }

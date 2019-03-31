@@ -2,7 +2,7 @@ const { Constants } = require('../data/Constants');
 
 exports.formatDescription = (title, description) => {
     let finalOutput = '';
-    let isCodeBlock = title === 'examples';
+    let isCodeBlock = title !== 'description';
     let titleLength = title.length;
     let dashesNumber = Constants.outputWidth - titleLength;
     let oneSideDushes = dashesNumber / 2;
