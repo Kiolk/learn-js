@@ -1,0 +1,35 @@
+{
+  "name": "learn-js",
+  "version": "1.0.0",
+  "description": "Command line tool that help you learn basics of JS and memory it everywhere. ",
+  "main": "index.js",
+  "bin": {
+    "learn-js": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiolk/learn-js.git"
+  },
+  "keywords": [
+    "npm",
+    "js",
+    "learn",
+    "command",
+    "line",
+    "study",
+    "programming",
+    "language"
+  ],
+  "author": "Yauheni Slizh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiolk/learn-js/issues"
+  },
+  "homepage": "https://github.com/Kiolk/learn-js#readme",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
