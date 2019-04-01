@@ -1,6 +1,6 @@
 {
   "name": "learn-js-bash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line tool that help you learn basics of JS and memory it everywhere. ",
   "main": "index.js",
   "bin": {
