@@ -1,10 +1,10 @@
 {
-  "name": "learn-js",
-  "version": "1.0.0",
+  "name": "learn-js-bash",
+  "version": "1.0.1",
   "description": "Command line tool that help you learn basics of JS and memory it everywhere. ",
   "main": "index.js",
   "bin": {
-    "learn-js": "bin/index.js"
+    "learn-js-bash": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
